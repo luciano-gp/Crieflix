@@ -8,8 +8,17 @@
     color: var(--color-black);
     font-size: var(--font-size-default);
     font-family: var(--font-family-primary);
+    line-height: 22px;
 }
 
 .input::placeholder {
     color: var(--color-ligth-gray);
+}
+
+@media only screen and (max-width: 480px) {
+    .input {
+        width: 220px;
+        height: 48px;
+        font-size: 14px;
+    }
 }

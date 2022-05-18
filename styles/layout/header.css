@@ -24,6 +24,10 @@
     margin-right: 24px;
 }
 
+.header__menu__item:last-child {
+    margin-right: 0;
+}
+
 .header__menu__item--active {
     color: var(--color-white);
 }
@@ -48,4 +52,33 @@
 .header__sign-in {
     margin-left: auto;
     margin-right: 0;
+}
+
+@media only screen and (max-width: 480px) {
+    .header {
+        margin: 16px;
+        flex-wrap: wrap;
+    }
+
+    .header__logo {
+        width: 100px;
+    }
+
+    .header__menu {
+        order: 1;
+        margin: 40px -16px 0px -16px;
+        padding: 0 16px;
+        display: flex;
+        overflow: auto hidden;
+        scrollbar-width: none; /*Firefox*/
+    }
+    
+    .header__menu__item {
+        flex-shrink: 0;
+    }
+
+    .header__menu::-webkit-scrollbar { /*Chrome*/
+        width: 0;
+        height: 0;
+    }
 }

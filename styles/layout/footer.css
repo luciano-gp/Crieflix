@@ -28,3 +28,28 @@
     line-height: 24px;
     font-size: var(--font-size-default);
 }
+
+@media only screen and (max-width: 480px) {
+    .footer {
+        margin-top: 56px;
+        flex-direction: column;
+        padding: 32px 0 24px 0 ;
+    }
+
+    .footer__logo{
+        width: 100px;
+    }
+
+    .footer__nav {
+        margin: 32px 0;
+    }
+
+    .footer__nav__link {
+        font-size: 14px;
+        padding: 0 32px;
+    }
+
+    .footer__copy {
+        font-size: 14px;
+    }
+}
