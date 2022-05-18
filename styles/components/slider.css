@@ -1,0 +1,39 @@
+.slider {
+    margin: 70px;
+}
+
+.slider__header {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
+    margin-bottom: 40px;
+}
+
+.slider__title {
+    color: var(--color-white);
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+}
+
+.slider__more {
+    color: var(--color-white);
+    font-size: var(--font-size-default);
+    line-height: 22px;
+}
+
+.slider__more__icon,
+.slider__more__text {
+    vertical-align: middle;
+}
+
+.slider__more__icon {
+    fill: var(--color-primary);
+    margin-left: 8px;
+}
+
+.slider__track {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}

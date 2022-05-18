@@ -1,0 +1,14 @@
+.button {
+    height: 40px;
+    padding: 10px 24px;
+    background-color: var(--color-primary);
+    font-size: var(--font-size-default);
+    line-height: 22px;
+    color: var(--color-white);
+    border-radius: var(--border-radius-default);
+    border: none;
+}
+
+.button--large {
+    height: 60px;
+}
